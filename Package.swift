@@ -14,7 +14,7 @@ let package = Package(
         .library(name: "ComposableAudioPlayer", targets: ["ComposableAudioPlayer"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/pointfreeco/swift-composable-architecture", from: "0.15.0")
+        .package(url: "https://github.com/pointfreeco/swift-composable-architecture", from: "0.16.0")
     ],
     targets: [
         .target(name: "ComposableAudioPlayer", dependencies: [
